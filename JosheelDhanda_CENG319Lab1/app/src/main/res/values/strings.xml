@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">JosheelDhanda_CENG319Lab1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="aititle">AIActivity</string>
+    <string name="vrtitle">VRActivity</string>
+    <string name="create">onCreate executed</string>
+    <string name="start">onStart executed</string>
+    <string name="stop">onStop executed</string>
+    <string name="destroy">onDestroy executed</string>
+    <string name="main">Main Activity:</string>
+    <string name="life">Activity Life Cycles Demonstration</string>
+</resources>
