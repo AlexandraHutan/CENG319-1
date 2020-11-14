@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         this.fragment = (displayMsg)getSupportFragmentManager().findFragmentById(R.id.dispfrag);
-        this.message = getString(R.string.main) + "\n" + getString(R.string.create)+ "\n";;
+        this.message = getString(R.string.main) + "\n" + getString(R.string.create)+ "\n";
 
         fragment.display(message);
     }
@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
         super.onStart();
         this.message += "onStart executed\n" ;
         this.fragment.display(message);
-        message=null;
     }
 
 
